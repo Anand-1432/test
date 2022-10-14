@@ -5,6 +5,6 @@ app.get("/",(req,res)=>{
     res.send("hellow from other side");
 })
 
-app.listen(8000,()=>{
-    console.log("listening at port 8000");
+app.listen(5000,()=>{
+    console.log("listening at port 5000");
 })
